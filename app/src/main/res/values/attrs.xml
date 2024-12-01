@@ -42,7 +42,7 @@
 
     <!-- FAB Custom Attributes -->
     <declare-styleable name="CustomFloatingActionButton">
-        <attr name="sdMainFabAnimationRotateAngle" format="integer" />
+        <!--attr name="sdMainFabAnimationRotateAngle" format="integer" /-->
         <attr name="sdMainFabClosedSrc" format="reference" />
         <attr name="sdMainFabOpenedSrc" format="reference" />
         <attr name="sdUseReverseAnimationOnClose" format="boolean" />
