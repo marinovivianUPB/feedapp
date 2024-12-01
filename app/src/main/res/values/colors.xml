@@ -5,6 +5,7 @@
 
 <resources>
 <!--    Theme colors -->
+    <color name="colorAccent">#FF4081</color>
     <color name="colorPrimary">#6bb5ff</color>
     <color name="colorPrimaryDark">#2c86cb</color>
     <color name="colorPrimaryLight">#a2e7ff</color>
