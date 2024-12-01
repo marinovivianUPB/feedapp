@@ -95,6 +95,7 @@ dependencies {
 
 // AndroidX Data Binding
     implementation 'androidx.databinding:databinding-runtime:3.6.0' // Matches your Android Gradle Plugin
+    implementation 'com.github.leinardi:MaterialSpeedDial:3.2.0'
 
 
     // Test dependencies
