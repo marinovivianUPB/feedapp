@@ -139,5 +139,26 @@
         <item name="android:fontFamily">sans-serif</item> <!-- Replace with a desired font if needed -->
         <!-- Add other text customizations as needed -->
     </style>
+    
+    <!-- TextUsualBlack style -->
+    <style name="TextUsualBlack">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- TextUsualSmall style -->
+    <style name="TextUsualSmall">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- SearchActivityTextOptions style -->
+    <style name="SearchActivityTextOptions">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
 
 </resources>
