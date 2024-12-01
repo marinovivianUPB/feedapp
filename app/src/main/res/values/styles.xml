@@ -92,21 +92,34 @@
         <item name="android:textColor">@color/colorText</item>
     </style>
 
-    <!-- Remaining styles -->
-    <!-- Update android:background to customBackground wherever conflicts may arise -->
-    <!-- Example for PreferenceTextUsual -->
-    <style name="PreferenceTextUsual">
+    <!-- New Styles -->
+    <style name="TextUsualBold">
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/colorText_desc</item>
-        <item name="android:paddingTop">15dp</item>
-        <item name="android:paddingBottom">15dp</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingStart">70dp</item>
-        <item name="android:clickable">true</item>
-        <item name="android:focusable">true</item>
-        <item name="customBackground">?android:attr/selectableItemBackground</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
-    <!-- Add other styles here -->
+    <style name="CardViewUsual" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="TextUsualBlackSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TitleBold">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextNotFound">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/errorColor</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
 </resources>
