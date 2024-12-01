@@ -68,6 +68,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
 
+    // Adding ConstraintLayout dependency
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'  // Or the latest version
+
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.6.0" // Compatible JUnit 5 version
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.6.0"
     testImplementation 'androidx.test.ext:junit:1.1.2'
