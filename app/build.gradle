@@ -52,7 +52,7 @@ android {
 }
 
 dependencies {
-    def kotlin_version = "1.3.72" // Adjusted Kotlin version
+    def kotlin_version = "1.3.72" // Your Kotlin version
     def room_version = "2.2.6" // Compatible Room version
     def firebase_bom_version = "26.1.1" // Compatible Firebase BOM
 
@@ -68,9 +68,20 @@ dependencies {
     implementation 'com.google.firebase:firebase-analytics-ktx'
     implementation 'com.google.firebase:firebase-crashlytics-ktx'
 
-    // Adding ConstraintLayout dependency
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'  // Or the latest version
+    // ConstraintLayout
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
+    // Navigation dependencies
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5' // Compatible with Kotlin 1.3.72
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+
+    // Floating Action Button (Fab) library
+    implementation 'com.github.clans:fab:1.6.4' // Compatible with SDK 29
+
+    // Material Search View
+    implementation 'com.github.MiguelCatalan:MaterialSearchView:1.4.0' // Works with your setup
+
+    // Test dependencies
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.6.0" // Compatible JUnit 5 version
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.6.0"
     testImplementation 'androidx.test.ext:junit:1.1.2'
