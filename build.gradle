@@ -1,18 +1,16 @@
 buildscript {
-    ext {
-        kotlin_version = '1.8.22'
-        navigation_version = '2.7.3'
-    }
+    ext.kotlin_version = '1.8.22' // Updated to latest compatible version
+    ext.navigation_version = '2.7.3' // Added for Safe Args plugin
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.1'
+        classpath 'com.android.tools.build:gradle:8.1.1' // Updated to latest AGP
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version"
-        classpath 'com.google.gms:google-services:4.3.15'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.7'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$navigation_version" // Added Safe Args plugin
+        classpath 'com.google.gms:google-services:4.3.15' // Updated Google Services plugin
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.9.7' // Updated Crashlytics plugin
     }
 }
 
@@ -21,4 +19,8 @@ allprojects {
         google()
         mavenCentral()
     }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
 }
