@@ -2,13 +2,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'de.mannodermaus.android-junit5'
-apply plugin: 'androidx.navigation.safeargs'
+apply plugin: 'androidx.navigation.safeargs' // Ensure Safe Args plugin is applied
 apply plugin: 'com.google.gms.google-services'
 apply plugin: 'com.google.firebase.crashlytics'
 
 android {
-    compileSdkVersion 31
-    buildToolsVersion "31.0.0"
+    compileSdkVersion 31 // Ensured compileSdkVersion is specified
+    buildToolsVersion "31.0.0" // Retained version compatible with compileSdkVersion
 
     defaultConfig {
         applicationId "com.feedapp.app"
@@ -53,9 +53,9 @@ android {
 }
 
 dependencies {
-    def kotlin_version = "1.5.31"
-    def room_version = "2.4.3"
-    def firebase_bom_version = "32.0.0"
+    def kotlin_version = "1.8.22" // Updated Kotlin version
+    def room_version = "2.5.2" // Updated Room version
+    def firebase_bom_version = "33.0.0" // Updated Firebase BOM
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
