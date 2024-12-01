@@ -161,4 +161,32 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
+    <!-- Custom Preference Title Style -->
+    <style name="PreferenceTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Custom Preference Text Style -->
+    <style name="PreferenceTextUsual" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- About Text Title Style -->
+    <style name="TextAbout.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- About Text Description Style -->
+    <style name="TextAbout.Description" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
 </resources>
