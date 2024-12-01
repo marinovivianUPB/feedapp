@@ -54,5 +54,6 @@
     <color name="delete_account">#FF5722</color>
     <color name="errorColor">#FF0000</color>
     <color name="textColor">#000</color>
-
+    <color name="textColorSecondary">#000</color>
+  
 </resources>
