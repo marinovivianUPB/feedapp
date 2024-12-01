@@ -79,6 +79,7 @@ dependencies {
     implementation 'com.github.clans:fab:1.6.4' // Compatible with SDK 29
 
     implementation 'com.airbnb.android:lottie:3.4.0'
+    implementation 'androidx.preference:preference:1.1.1'
 
     // Test dependencies
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.6.0" // Compatible JUnit 5 version
