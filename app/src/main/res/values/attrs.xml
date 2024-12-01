@@ -39,4 +39,21 @@
         <attr name="scrimAnimationDuration" format="integer" />
         <attr name="scrimVisibleHeightTrigger" format="dimension" />
     </declare-styleable>
+
+    <!-- FAB Custom Attributes -->
+    <declare-styleable name="CustomFloatingActionButton">
+        <attr name="sdMainFabAnimationRotateAngle" format="integer" />
+        <attr name="sdMainFabClosedSrc" format="reference" />
+        <attr name="sdMainFabOpenedSrc" format="reference" />
+        <attr name="sdUseReverseAnimationOnClose" format="boolean" />
+    </declare-styleable>
+
+    <!-- Material Search View Custom Attributes -->
+    <declare-styleable name="MaterialSearchView">
+        <attr name="mt_hint" format="string" />
+        <attr name="mt_maxSuggestionsCount" format="integer" />
+        <attr name="mt_placeholder" format="string" />
+        <attr name="mt_roundedSearchBarEnabled" format="boolean" />
+        <attr name="mt_speechMode" format="boolean" />
+    </declare-styleable>
 </resources>
