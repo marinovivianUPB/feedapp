@@ -122,4 +122,22 @@
         <item name="android:textStyle">italic</item>
     </style>
 
+        <!-- MaterialButtonStyle definition -->
+    <style name="MaterialButtonStyle">
+        <item name="cornerRadius">4dp</item>
+        <item name="android:backgroundTint">@color/colorAccent</item> <!-- Replace with your accent color -->
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <!-- Add other MaterialButton customizations as needed -->
+    </style>
+
+    <!-- TextUsual style definition -->
+    <style name="TextUsual">
+        <item name="android:textColor">@color/textColor</item> <!-- Replace with your desired color -->
+        <item name="android:textSize">16sp</item> <!-- Replace with your desired text size -->
+        <item name="android:fontFamily">sans-serif</item> <!-- Replace with a desired font if needed -->
+        <!-- Add other text customizations as needed -->
+    </style>
+
 </resources>
